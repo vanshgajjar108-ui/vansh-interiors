@@ -1,0 +1,957 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vansh Gajjar — Interior Architecture & Spatial Design</title>
+  <meta name="description" content="Portfolio of Vansh Gajjar — Interior Design Student at Indus University, Ahmedabad. Focus on Interior Architecture, Residential Interiors, and Adaptive Spatial Frameworks." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- PRELOADER -->
+  <aside class="brutal-loader" id="loader" aria-hidden="true">
+    <div class="loader-terminal">
+      <div class="loader-hdr">
+        <span>ARCH_SYS_LOADER // V2.0</span>
+        <span class="status-indicator">STANDBY</span>
+      </div>
+      <div class="loader-name">VANSH GAJJAR</div>
+      <div class="loader-sub">SPATIAL RESEARCH &amp; INTERIOR ARCHITECTURE</div>
+      <div class="loader-bar-track">
+        <div class="loader-bar-fill" id="loaderBar"></div>
+      </div>
+      <div class="loader-footer">
+        <span id="loaderMsg">INITIALIZING GRID PARAMETERS...</span>
+        <span id="loaderPct" class="loader-counter">00%</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- TOP HEADER / HUD -->
+  <header class="hud-header" id="header">
+    <div class="hud-left">
+      <a href="#home" class="hud-brand" aria-label="Home">
+        <span class="hud-glitch" data-text="VG">VG</span>
+        <span class="hud-brand-meta">STUDIO / 2025</span>
+      </a>
+    </div>
+    <div class="hud-center">
+      <span class="hud-location">LOC: 23.0225° N, 72.5714° E [AHMEDABAD]</span>
+      <span class="hud-inst">INDUS UNIVERSITY // INTERIOR DESIGN</span>
+    </div>
+    <div class="hud-right">
+      <nav class="hud-nav" aria-label="Main Navigation">
+        <a href="#work" class="hud-link"><span class="h-idx">01</span><span class="h-txt">WORK</span></a>
+        <a href="#thesis" class="hud-link"><span class="h-idx">02</span><span class="h-txt">THESIS</span></a>
+        <a href="#case-studies" class="hud-link"><span class="h-idx">03</span><span class="h-txt">STUDIES</span></a>
+        <a href="#about" class="hud-link"><span class="h-idx">04</span><span class="h-txt">ABOUT</span></a>
+        <a href="#process" class="hud-link"><span class="h-idx">05</span><span class="h-txt">PROCESS</span></a>
+        <a href="#contact" class="hud-link hud-link--cta"><span class="h-idx">06</span><span class="h-txt">CONTACT</span></a>
+      </nav>
+      <button class="mobile-toggle" id="menuToggle" aria-label="Open Mobile Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <nav class="mobile-drawer" id="mobileMenu" aria-label="Mobile Navigation" aria-hidden="true">
+    <div class="drawer-header">
+      <span>INDEX // DIRECTORY</span>
+      <button class="drawer-close" id="menuClose">CLOSE [X]</button>
+    </div>
+    <div class="drawer-links">
+      <a href="#work" class="mob-link"><span class="ml-n">01</span><span>SELECTED WORK</span></a>
+      <a href="#thesis" class="mob-link"><span class="ml-n">02</span><span>THESIS PROJECT</span></a>
+      <a href="#case-studies" class="mob-link"><span class="ml-n">03</span><span>CASE STUDIES</span></a>
+      <a href="#about" class="mob-link"><span class="ml-n">04</span><span>BIOGRAPHY &amp; SKILLS</span></a>
+      <a href="#process" class="mob-link"><span class="ml-n">05</span><span>METHODOLOGY</span></a>
+      <a href="#contact" class="mob-link"><span class="ml-n">06</span><span>COMMISSION / CONTACT</span></a>
+    </div>
+    <div class="drawer-footer">
+      <p>VANSH GAJJAR — INTERIOR ARCHITECTURE &amp; SPATIAL FRAMEWORKS</p>
+      <p>INDUS UNIVERSITY, AHMEDABAD</p>
+    </div>
+  </nav>
+
+  <main id="main">    <!-- ════════════════════════════════════════════
+         SECTION 01: HERO / MONUMENTAL INTRODUCTION
+         ════════════════════════════════════════════ -->
+    <section class="sec-hero" id="home" aria-label="Introduction">
+      <div class="hero-grid-bg" aria-hidden="true">
+        <div class="col-guide"></div><div class="col-guide"></div><div class="col-guide"></div><div class="col-guide"></div>
+      </div>
+      <div class="hero-wrapper">
+        <div class="hero-header-line">
+          <div class="hero-tag">[ SPEC_ID: VG-2025 // DESIGNER ARCHIVE ]</div>
+          <div class="hero-status"><span class="pulse-led"></span>AVAILABLE FOR SELECT COLLABORATIONS &amp; STUDIOS</div>
+        </div>
+
+        <div class="hero-headline-block">
+          <div class="hero-name-row">
+            <h1 class="hero-title-first glitch-text" data-text="VANSH">VANSH</h1>
+          </div>
+          <div class="hero-name-row hero-name-row--indent">
+            <h1 class="hero-title-last glitch-text" data-text="GAJJAR">GAJJAR</h1>
+          </div>
+        </div>
+
+        <div class="hero-mid-grid">
+          <div class="hero-mid-left">
+            <div class="label-badge">DISCIPLINE</div>
+            <h2 class="hero-subdiscipline">INTERIOR ARCHITECTURE<br/>&amp; SPATIAL PROPOSITIONS</h2>
+          </div>
+          <div class="hero-mid-center">
+            <div class="label-badge">PHILOSOPHY STATEMENT</div>
+            <blockquote class="hero-statement">
+              &ldquo;Designing spaces around the lives they hold.&rdquo;
+            </blockquote>
+          </div>
+          <div class="hero-mid-right">
+            <div class="label-badge">RESEARCH SUMMARY</div>
+            <p class="hero-bio-brief">
+              Interior Design student at Indus University, Ahmedabad. Investigating adaptive domestic envelopes, structural spatial grids, and residential typologies that evolve alongside human inhabitation.
+            </p>
+            <div class="hero-actions">
+              <a href="#work" class="btn-brutal btn-brutal--solid">EXPLORE ARCHIVE [↓]</a>
+              <a href="#about" class="btn-brutal btn-brutal--ghost">DOSSIER // BIO</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-bottom-strip">
+          <div class="h-stat-item">
+            <span class="h-stat-lbl">FOCUS</span>
+            <span class="h-stat-val">RESIDENTIAL / SPATIAL SYSTEMS</span>
+          </div>
+          <div class="h-stat-item">
+            <span class="h-stat-lbl">AFFILIATION</span>
+            <span class="h-stat-val">INDUS UNIVERSITY, GUJARAT</span>
+          </div>
+          <div class="h-stat-item">
+            <span class="h-stat-lbl">CORE RESEARCH</span>
+            <span class="h-stat-val">ONE PLACE, MANY DIFFERENT LIVES</span>
+          </div>
+          <div class="h-stat-item h-stat-item--ticker">
+            <span class="h-stat-lbl">COORDINATES</span>
+            <span class="h-stat-val font-mono">23°01'N 72°34'E</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BRUTAL MARQUEE STRIP -->
+    <div class="brutal-ticker" aria-hidden="true">
+      <div class="ticker-content">
+        <span>SPATIAL PLANNING</span> <span class="tk-sym">///</span>
+        <span>INTERIOR ARCHITECTURE</span> <span class="tk-sym">///</span>
+        <span>MODULAR GRIDS</span> <span class="tk-sym">///</span>
+        <span>ADAPTIVE RESIDENTIAL SYSTEMS</span> <span class="tk-sym">///</span>
+        <span>MATERIALITY &amp; TECTONICS</span> <span class="tk-sym">///</span>
+        <span>HUMAN-CENTERED PROPORTION</span> <span class="tk-sym">///</span>
+        <span>AUTOCAD &amp; SKETCHUP MODELING</span> <span class="tk-sym">///</span>
+        <span>SPATIAL PLANNING</span> <span class="tk-sym">///</span>
+        <span>INTERIOR ARCHITECTURE</span> <span class="tk-sym">///</span>
+        <span>MODULAR GRIDS</span> <span class="tk-sym">///</span>
+      </div>
+    </div>    <!-- ════════════════════════════════════════════
+         SECTION 02: SELECTED WORK // ARCHIVE
+         ════════════════════════════════════════════ -->
+    <section class="sec-work" id="work" aria-label="Selected Projects">
+      <div class="sec-intro-bar">
+        <div class="sec-num-large" aria-hidden="true">02</div>
+        <div class="sec-meta-col">
+          <span class="sec-subhead">// ARCHITECTURAL PORTFOLIO</span>
+          <h2 class="sec-title">SELECTED<br/><span class="text-accent">PROJECTS.</span></h2>
+        </div>
+        <div class="sec-note-col">
+          <p>Carefully researched spatial interventions, speculative residential inquiries, and rigorous academic investigations. Non-fabricated academic integrity.</p>
+        </div>
+      </div>
+
+      <div class="concrete-grid">
+        <!-- PROJECT 01: THESIS -->
+        <article class="concrete-card concrete-card--lead" data-index="01">
+          <div class="card-edge-tag">CORE THESIS // 2024–25</div>
+          <div class="card-visual-frame">
+            <div class="raw-placeholder ph-p1">
+              <div class="ph-reticle" aria-hidden="true"></div>
+              <span class="ph-code">[ SPEC_PLATE_01 // THESIS SCHEMATICS ]</span>
+              <span class="ph-dimension">GRID: 6.4m × 6.4m ENVELOPE</span>
+            </div>
+            <div class="card-indicator">EXPAND [↗]</div>
+          </div>
+          <div class="card-content-block">
+            <div class="card-hdr">
+              <span class="card-index">REF #01</span>
+              <span class="card-tag">INTERIOR ARCHITECTURE THESIS</span>
+              <span class="card-year">2024–25</span>
+            </div>
+            <h3 class="card-heading"><a href="#thesis">ONE PLACE, MANY DIFFERENT LIVES</a></h3>
+            <p class="card-summary">
+              An exhaustive architectural inquiry examining how a fixed spatial perimeter and modular chassis can fluidly reconfigure to support diverse lifestyle typologies without architectural fragmentation.
+            </p>
+            <div class="card-specs">
+              <span class="spec-pill">MODULAR GRIDS</span>
+              <span class="spec-pill">ADAPTIVE HOUSING</span>
+              <span class="spec-pill">AUTOCAD / SKETCHUP</span>
+            </div>
+            <a href="#thesis" class="card-action-link">DEEP INSPECTION →</a>
+          </div>
+        </article>
+
+        <!-- PROJECT 02: MIMA HOUSE -->
+        <article class="concrete-card" data-index="02">
+          <div class="card-edge-tag">PRECEDENT STUDY // 2024</div>
+          <div class="card-visual-frame">
+            <div class="raw-placeholder ph-p2">
+              <div class="ph-reticle" aria-hidden="true"></div>
+              <span class="ph-code">[ SPEC_PLATE_02 // MIMA ANALYSIS ]</span>
+              <span class="ph-dimension">36m² MODULAR FOOTPRINT</span>
+            </div>
+            <div class="card-indicator">EXPAND [↗]</div>
+          </div>
+          <div class="card-content-block">
+            <div class="card-hdr">
+              <span class="card-index">REF #02</span>
+              <span class="card-tag">CASE STUDY</span>
+              <span class="card-year">2024</span>
+            </div>
+            <h3 class="card-heading"><a href="#case-mima">MIMA HOUSE STUDY</a></h3>
+            <p class="card-summary">
+              Analytical spatial breakdown investigating the modular post-and-beam system, partition mobility, and strict spatial metrics as inspiration for flexible residential envelopes.
+            </p>
+            <div class="card-specs">
+              <span class="spec-pill">PREFABRICATION</span>
+              <span class="spec-pill">GRID PARTITIONS</span>
+            </div>
+            <a href="#case-mima" class="card-action-link">READ STUDY →</a>
+          </div>
+        </article>
+
+        <!-- PROJECT 03: NEXT21 -->
+        <article class="concrete-card" data-index="03">
+          <div class="card-edge-tag">COLLECTIVE HOUSING // 2024</div>
+          <div class="card-visual-frame">
+            <img src="../assets/images/project-next21.jpg" alt="NEXT21 Linked House Architecture" class="v2-real-img" />
+            <div class="card-indicator">EXPAND [↗]</div>
+          </div>
+          <div class="card-content-block">
+            <div class="card-hdr">
+              <span class="card-index">REF #03</span>
+              <span class="card-tag">CASE STUDY</span>
+              <span class="card-year">2024</span>
+            </div>
+            <h3 class="card-heading"><a href="#case-next21">NEXT21 LINKED HOUSE</a></h3>
+            <p class="card-summary">
+              Research into Osaka’s landmark experimental housing project. Deconstructing two-tier spatial ownership (Skeleton vs. Infill) and pluralistic living routines.
+            </p>
+            <div class="card-specs">
+              <span class="spec-pill">OSAKA PRECEDENT</span>
+              <span class="spec-pill">SKELETON/INFILL</span>
+            </div>
+            <a href="#case-next21" class="card-action-link">READ STUDY →</a>
+          </div>
+        </article>
+
+        <!-- PROJECT 04: RESIDENTIAL INTERIOR -->
+        <article class="concrete-card" data-index="04">
+          <div class="card-edge-tag">RESIDENTIAL SCHEME // 2024</div>
+          <div class="card-visual-frame">
+            <div class="raw-placeholder ph-p4">
+              <div class="ph-reticle" aria-hidden="true"></div>
+              <span class="ph-code">[ SPEC_PLATE_04 // RESIDENTIAL PLAN ]</span>
+              <span class="ph-dimension">SITE: GUJARAT / CONTEMPORARY DOMESTIC</span>
+            </div>
+            <div class="card-indicator">EXPAND [↗]</div>
+          </div>
+          <div class="card-content-block">
+            <div class="card-hdr">
+              <span class="card-index">REF #04</span>
+              <span class="card-tag">RESIDENTIAL DESIGN</span>
+              <span class="card-year">2024</span>
+            </div>
+            <h3 class="card-heading">RESIDENTIAL INTERIOR PROJECT</h3>
+            <p class="card-summary">
+              A comprehensive residential interior designed around sensory materiality, human scale, and balanced natural illumination. Focused on programmatic continuity between communal and retreat zones.
+            </p>
+            <div class="card-specs">
+              <span class="spec-pill">SPATIAL PLANNING</span>
+              <span class="spec-pill">MATERIAL STRATEGY</span>
+            </div>
+            <span class="card-action-link">STUDIO ARCHIVE →</span>
+          </div>
+        </article>
+
+        <!-- PROJECT 05: CONCEPT / SPATIAL DESIGN -->
+        <article class="concrete-card" data-index="05">
+          <div class="card-edge-tag">SPECULATIVE SCHEME // 2023</div>
+          <div class="card-visual-frame">
+            <div class="raw-placeholder ph-p5">
+              <div class="ph-reticle" aria-hidden="true"></div>
+              <span class="ph-code">[ SPEC_PLATE_05 // ABSTRACT MASSING ]</span>
+              <span class="ph-dimension">SCALELESS SPATIAL EXPERIMENT</span>
+            </div>
+            <div class="card-indicator">EXPAND [↗]</div>
+          </div>
+          <div class="card-content-block">
+            <div class="card-hdr">
+              <span class="card-index">REF #05</span>
+              <span class="card-tag">CONCEPTUAL EXPLORATION</span>
+              <span class="card-year">2023</span>
+            </div>
+            <h3 class="card-heading">CONCEPT &amp; SPATIAL DESIGN</h3>
+            <p class="card-summary">
+              An abstract architectural study translating non-physical parameters into tangible spatial boundaries. Testing void-to-solid ratios and light penetration geometries.
+            </p>
+            <div class="card-specs">
+              <span class="spec-pill">CONCEPT FORMULATION</span>
+              <span class="spec-pill">VOLUME TESTING</span>
+            </div>
+            <span class="card-action-link">STUDIO ARCHIVE →</span>
+          </div>
+        </article>
+
+        <!-- PROJECT 06: ACADEMIC DESIGN PROJECTS -->
+        <article class="concrete-card" data-index="06">
+          <div class="card-edge-tag">STUDIO VAULT // 2022–24</div>
+          <div class="card-visual-frame">
+            <div class="raw-placeholder ph-p6">
+              <div class="ph-reticle" aria-hidden="true"></div>
+              <span class="ph-code">[ SPEC_PLATE_06 // ACADEMIC PORTFOLIO ]</span>
+              <span class="ph-dimension">INDUS UNIVERSITY STUDIOS I-V</span>
+            </div>
+            <div class="card-indicator">EXPAND [↗]</div>
+          </div>
+          <div class="card-content-block">
+            <div class="card-hdr">
+              <span class="card-index">REF #06</span>
+              <span class="card-tag">ACADEMIC RETROSPECTIVE</span>
+              <span class="card-year">2022–24</span>
+            </div>
+            <h3 class="card-heading">ACADEMIC DESIGN PROJECTS</h3>
+            <p class="card-summary">
+              Curated studio exercises traversing Anthropometrics, Measured Drawing, Construction Detailing, and Historic Precedent Analysis completed during university studio tenure.
+            </p>
+            <div class="card-specs">
+              <span class="spec-pill">DRAFTING</span>
+              <span class="spec-pill">TECHNICAL DETAILS</span>
+            </div>
+            <span class="card-action-link">STUDIO ARCHIVE →</span>
+          </div>
+        </article>
+      </div>
+    </section>    <!-- ════════════════════════════════════════════
+         SECTION 03: IMMERSIVE THESIS CASE STUDY
+         ════════════════════════════════════════════ -->
+    <section class="sec-thesis" id="thesis" aria-label="Thesis Exploration">
+      <div class="thesis-lead-hero">
+        <div class="tlh-tag">[ THESIS_DOSSIER // INDUS UNIVERSITY 2024–25 ]</div>
+        <div class="tlh-title-wrap">
+          <h2 class="thesis-masthead">
+            ONE PLACE,<br/>
+            <span class="text-indigo">MANY DIFFERENT</span><br/>
+            LIVES.
+          </h2>
+        </div>
+        <div class="tlh-axiom">
+          <div class="axiom-bracket">[ CENTRAL HYPOTHESIS ]</div>
+          <p class="axiom-text">
+            Exploring how one residential room/grid can adapt to diverse lifestyles and users while maintaining a consistent structural framework, tectonic rigor, and spatial integrity.
+          </p>
+        </div>
+      </div>
+
+      <!-- BRUTAL STICKY SUB-NAV -->
+      <nav class="thesis-sticky-bar" id="thesisNav" aria-label="Thesis Chapters">
+        <div class="tsb-track">
+          <a href="#th-01" class="tsb-link active">01 // INFO</a>
+          <a href="#th-02" class="tsb-link">02 // AIM</a>
+          <a href="#th-03" class="tsb-link">03 // OBJECTIVES</a>
+          <a href="#th-04" class="tsb-link">04 // PROFILES</a>
+          <a href="#th-05" class="tsb-link">05 // METHODOLOGY</a>
+          <a href="#th-06" class="tsb-link">06 // CASE STUDIES</a>
+          <a href="#th-07" class="tsb-link">07 // DEVELOPMENT</a>
+          <a href="#th-08" class="tsb-link">08 // TRANSFORMATION</a>
+          <a href="#th-09" class="tsb-link">09 // OUTCOME</a>
+        </div>
+      </nav>
+
+      <div class="thesis-chapters">
+        <!-- 01: INFORMATION -->
+        <section class="th-chapter" id="th-01">
+          <div class="ch-meta"><span class="ch-idx">01</span><span class="ch-title">PROJECT INFORMATION</span></div>
+          <div class="ch-body ch-body--grid">
+            <div class="data-block">
+              <span class="data-k">DEGREE SCHEME</span>
+              <span class="data-v">Bachelor of Design (B.Des) Interior Design</span>
+            </div>
+            <div class="data-block">
+              <span class="data-k">INSTITUTION</span>
+              <span class="data-v">Indus University, Ahmedabad, Gujarat</span>
+            </div>
+            <div class="data-block">
+              <span class="data-k">RESEARCH CYCLE</span>
+              <span class="data-v">2024 – 2025 Academic Studio</span>
+            </div>
+            <div class="data-block">
+              <span class="data-k">DISCIPLINE DOMAIN</span>
+              <span class="data-v">Interior Architecture / Spatial Infill Typologies</span>
+            </div>
+            <div class="data-block">
+              <span class="data-k">COMPUTATIONAL TOOLSET</span>
+              <span class="data-v">AutoCAD, SketchUp, Adobe Illustrator, Canva</span>
+            </div>
+            <div class="data-block">
+              <span class="data-k">CHASSIS PARADIGM</span>
+              <span class="data-v">Pre-engineered Spatial Envelope with Interchangeable Cores</span>
+            </div>
+          </div>
+          <div class="schematic-placeholder">
+            <div class="sp-border"></div>
+            <span>[ THESIS PRIMARY SPECIFICATION SCHEMATIC // REPLACE WITH CAD ISOMETRIC ]</span>
+          </div>
+        </section>
+
+        <!-- 02: AIM -->
+        <section class="th-chapter" id="th-02">
+          <div class="ch-meta"><span class="ch-idx">02</span><span class="ch-title">RESEARCH AIM</span></div>
+          <div class="ch-body">
+            <p class="ch-prose ch-prose--big">
+              To systematically design, test, and articulate an adaptive interior spatial methodology whereby a singular fixed structural grid accommodates radically contrasting daily human routines—spanning compact urban living to multi-generational family routines and luxury configurations—without degrading functional spatial dignity or requiring structural demolitions.
+            </p>
+          </div>
+        </section>
+
+        <!-- 03: OBJECTIVES -->
+        <section class="th-chapter" id="th-03">
+          <div class="ch-meta"><span class="ch-idx">03</span><span class="ch-title">STUDIO OBJECTIVES</span></div>
+          <div class="ch-body">
+            <div class="objective-matrix">
+              <div class="obj-node">
+                <span class="obj-tag">OBJ_01</span>
+                <h4>PRECEDENT DECONSTRUCTION</h4>
+                <p>Scrutinize international precedent models (modular and open-building typologies) to identify mechanisms of internal mobility.</p>
+              </div>
+              <div class="obj-node">
+                <span class="obj-tag">OBJ_02</span>
+                <h4>GRID METRICS ESTABLISHMENT</h4>
+                <p>Formulate an uncompromising modular spatial framework capable of housing MEP utilities and spatial boundaries.</p>
+              </div>
+              <div class="obj-node">
+                <span class="obj-tag">OBJ_03</span>
+                <h4>TYPOLOGICAL OCCUPANT MAPPING</h4>
+                <p>Formulate five distinct user behavioral profiles defining distinct spatial demands and circadian rhythms.</p>
+              </div>
+              <div class="obj-node">
+                <span class="obj-tag">OBJ_04</span>
+                <h4>ADAPTIVE GEOMETRY TESTING</h4>
+                <p>Develop precise CAD plans, sections, and tectonic elevations resolving spatial boundaries for each individual scenario.</p>
+              </div>
+              <div class="obj-node">
+                <span class="obj-tag">OBJ_05</span>
+                <h4>EXTRACT GENERAL PRINCIPLES</h4>
+                <p>Distill universal principles of interior architectural flexibility transferable across urban domestic typologies.</p>
+              </div>
+              <div class="obj-node">
+                <span class="obj-tag">OBJ_06</span>
+                <h4>COMPREHENSIVE DISSEMINATION</h4>
+                <p>Produce an editorial thesis portfolio with technical drawings, spatial transformations, and analytical diagrams.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 04: USER PROFILES -->
+        <section class="th-chapter" id="th-04">
+          <div class="ch-meta"><span class="ch-idx">04</span><span class="ch-title">USER PROFILES // 5 MODES OF INHABITATION</span></div>
+          <div class="ch-body">
+            <p class="ch-prose">
+              The project challenges standard monolithic housing models by subjecting one spatial module to 5 divergent user parameters:
+            </p>
+            <div class="profiles-brutal-grid">
+              <!-- PROFILE 1 -->
+              <div class="prof-card">
+                <div class="prof-hdr">
+                  <span class="prof-idx">PROFILE // 01</span>
+                  <span class="prof-badge">EFFICIENCY</span>
+                </div>
+                <h4 class="prof-title">COMPACT LIVING</h4>
+                <p class="prof-desc">Minimalist single inhabitant demanding multi-modal volume optimization, integrated concealed storage, and transformational casework.</p>
+                <div class="prof-ph"><span>[ PLAN SCHEMATIC: COMPACT ]</span></div>
+              </div>
+
+              <!-- PROFILE 2 -->
+              <div class="prof-card">
+                <div class="prof-hdr">
+                  <span class="prof-idx">PROFILE // 02</span>
+                  <span class="prof-badge">COLLECTIVE</span>
+                </div>
+                <h4 class="prof-title">FAMILY LIVING</h4>
+                <p class="prof-desc">Multi-generational family dynamics requiring clear acoustic partitions, secure privacy gradients, and communal hearth areas.</p>
+                <div class="prof-ph"><span>[ PLAN SCHEMATIC: FAMILY ]</span></div>
+              </div>
+
+              <!-- PROFILE 3 -->
+              <div class="prof-card">
+                <div class="prof-hdr">
+                  <span class="prof-idx">PROFILE // 03</span>
+                  <span class="prof-badge">HYBRID</span>
+                </div>
+                <h4 class="prof-title">WORKING COUPLE</h4>
+                <p class="prof-desc">Two professional careers in parallel. Acoustic isolation for simultaneous digital meetings paired with restorative post-work spatial unwind.</p>
+                <div class="prof-ph"><span>[ PLAN SCHEMATIC: WORKING COUPLE ]</span></div>
+              </div>
+
+              <!-- PROFILE 4 -->
+              <div class="prof-card">
+                <div class="prof-hdr">
+                  <span class="prof-idx">PROFILE // 04</span>
+                  <span class="prof-badge">SOCIAL</span>
+                </div>
+                <h4 class="prof-title">MODERN LIFESTYLE</h4>
+                <p class="prof-desc">Fluid, extroverted urban resident centered around entertaining, expansive culinary prep, art staging, and non-hierarchical open zones.</p>
+                <div class="prof-ph"><span>[ PLAN SCHEMATIC: MODERN ]</span></div>
+              </div>
+
+              <!-- PROFILE 5 -->
+              <div class="prof-card">
+                <div class="prof-hdr">
+                  <span class="prof-idx">PROFILE // 05</span>
+                  <span class="prof-badge">LUXURY</span>
+                </div>
+                <h4 class="prof-title">LUXURY / PRESIDENTIAL</h4>
+                <p class="prof-desc">High-tactility materiality, ceremonial spatial axes, generous transitional thresholds, and private retreats within the same footprint.</p>
+                <div class="prof-ph"><span>[ PLAN SCHEMATIC: LUXURY ]</span></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 05: METHODOLOGY -->
+        <section class="th-chapter" id="th-05">
+          <div class="ch-meta"><span class="ch-idx">05</span><span class="ch-title">DESIGN METHODOLOGY</span></div>
+          <div class="ch-body">
+            <div class="methodology-terminal">
+              <div class="m-step"><span class="m-step-n">01</span><div class="m-step-cnt"><h5>LITERATURE &amp; TYPOLOGY SEARCH</h5><p>Systematic review of international adaptable architecture papers, modular frameworks, and historic flex-housing experiments.</p></div></div>
+              <div class="m-step"><span class="m-step-n">02</span><div class="m-step-cnt"><h5>GRID INVARIANT FIXATION</h5><p>Establishing the non-negotiable structural column spacing, external window envelope, and MEP service riser shafts.</p></div></div>
+              <div class="m-step"><span class="m-step-n">03</span><div class="m-step-cnt"><h5>USER BEHAVIOR MODELING</h5><p>Formulating quantitative dimensional programs and qualitative psychological atmospheric criteria for each occupant category.</p></div></div>
+              <div class="m-step"><span class="m-step-n">04</span><div class="m-step-cnt"><h5>SPATIAL PLAN SYNTHESIS</h5><p>Iterative drafting in AutoCAD and 3D volumetric testing in SketchUp to resolve spatial flows and clearances.</p></div></div>
+              <div class="m-step"><span class="m-step-n">05</span><div class="m-step-cnt"><h5>COMPARATIVE MATRIX ANALYSIS</h5><p>Cross-evaluating how partitions, fixtures, and materials pivot between configurations without structural wastage.</p></div></div>
+              <div class="m-step"><span class="m-step-n">06</span><div class="m-step-cnt"><h5>TECHNICAL DISSEMINATION</h5><p>Finalizing architectural plans, sections, axonometrics, and presentation deliverables.</p></div></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 06: CASE STUDIES PREVIEW -->
+        <section class="th-chapter" id="th-06">
+          <div class="ch-meta"><span class="ch-idx">06</span><span class="ch-title">THEORETICAL CASE STUDIES</span></div>
+          <div class="ch-body">
+            <p class="ch-prose">Two primary architectural precedents anchored the theoretical basis of this thesis:</p>
+            <div class="th-cs-links">
+              <a href="#case-mima" class="th-cs-anchor">
+                <span class="thc-n">CASE 01</span>
+                <div class="thc-main">
+                  <strong>MIMA HOUSE</strong>
+                  <span>Modular Grid Coordination // Partition Flexibility // Minimal Chassis</span>
+                </div>
+                <span class="thc-go">INSPECT STUDY →</span>
+              </a>
+              <a href="#case-next21" class="th-cs-anchor">
+                <span class="thc-n">CASE 02</span>
+                <div class="thc-main">
+                  <strong>NEXT21 LINKED HOUSE (OSAKA)</strong>
+                  <span>Two-Tier Skeleton/Infill Methodology // Pluralistic Lifestyles // Urban Cohesion</span>
+                </div>
+                <span class="thc-go">INSPECT STUDY →</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 07: DESIGN DEVELOPMENT -->
+        <section class="th-chapter" id="th-07">
+          <div class="ch-meta"><span class="ch-idx">07</span><span class="ch-title">DESIGN DEVELOPMENT &amp; ITERATION</span></div>
+          <div class="ch-body">
+            <p class="ch-prose">Extensive process sketches, line drawing explorations, anthropometric tests, and grid partition alignments conducted during iterative studio critiques.</p>
+            <div class="sketches-grid">
+              <div class="raw-ph-box"><span>[ SKETCH PLATE A: GRID GEOMETRIES ]</span></div>
+              <div class="raw-ph-box"><span>[ SKETCH PLATE B: CIRCULATION STUDIES ]</span></div>
+              <div class="raw-ph-box"><span>[ SKETCH PLATE C: SECTIONAL CUTS ]</span></div>
+              <div class="raw-ph-box"><span>[ SKETCH PLATE D: JOINERY / INFILL ]</span></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 08: SPATIAL TRANSFORMATION -->
+        <section class="th-chapter" id="th-08">
+          <div class="ch-meta"><span class="ch-idx">08</span><span class="ch-title">SPATIAL TRANSFORMATION SEQUENCE</span></div>
+          <div class="ch-body">
+            <p class="ch-prose">The matrix below illustrates the immutable structural chassis adapting seamlessly across all 5 spatial configurations:</p>
+            <div class="transform-strip">
+              <div class="tr-card"><div class="tr-ph-box"><span>[ PLAN: COMPACT ]</span></div><span class="tr-lbl">01 // COMPACT LIVING</span></div>
+              <div class="tr-card"><div class="tr-ph-box"><span>[ PLAN: FAMILY ]</span></div><span class="tr-lbl">02 // FAMILY LIVING</span></div>
+              <div class="tr-card"><div class="tr-ph-box"><span>[ PLAN: COUPLE ]</span></div><span class="tr-lbl">03 // WORKING COUPLE</span></div>
+              <div class="tr-card"><div class="tr-ph-box"><span>[ PLAN: MODERN ]</span></div><span class="tr-lbl">04 // MODERN LIFESTYLE</span></div>
+              <div class="tr-card"><div class="tr-ph-box"><span>[ PLAN: LUXURY ]</span></div><span class="tr-lbl">05 // LUXURY LIVING</span></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 09: FINAL OUTCOME -->
+        <section class="th-chapter" id="th-09">
+          <div class="ch-meta"><span class="ch-idx">09</span><span class="ch-title">FINAL OUTCOME &amp; DEDUCTIONS</span></div>
+          <div class="ch-body">
+            <p class="ch-prose ch-prose--big">
+              The project proves that human-centric adaptability is an architectural attitude rather than a merely mechanical gimmick. By investing architectural clarity into an invariant grid, interior space gains longevity, emotional resonance, and the resilience to host varied generations of human living.
+            </p>
+            <div class="final-render-ph">
+              <span>[ FINAL THESIS EXHIBITION BOARDS &amp; INTEGRATED AXONOMETRIC RENDER ]</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>    <!-- ════════════════════════════════════════════
+         SECTION 04: ARCHITECTURAL CASE STUDIES
+         ════════════════════════════════════════════ -->
+    <section class="sec-cases" id="case-studies" aria-label="Case Studies">
+      <div class="sec-intro-bar">
+        <div class="sec-num-large" aria-hidden="true">04</div>
+        <div class="sec-meta-col">
+          <span class="sec-subhead">// PRECEDENT ANALYSIS</span>
+          <h2 class="sec-title">CASE<br/><span class="text-accent">STUDIES.</span></h2>
+        </div>
+        <div class="sec-note-col">
+          <p>Dissecting built precedents to substantiate design methodology. Placeholders clearly designated for additional imagery and analytical documentation.</p>
+        </div>
+      </div>
+
+      <!-- CASE STUDY 01: MIMA HOUSE -->
+      <article class="case-monograph" id="case-mima">
+        <div class="cm-head">
+          <div class="cm-badge">PRECEDENT // 01</div>
+          <h3 class="cm-name">MIMA HOUSE <span class="cm-type">[MODULAR PREFABRICATION]</span></h3>
+        </div>
+        <div class="cm-main-frame">
+          <div class="raw-ph-big"><span>[ MIMA HOUSE — ARCHITECTURAL PHOTOGRAPHY &amp; ISOMETRICS // PLEASE INSERT IMAGES ]</span></div>
+        </div>
+        <div class="cm-meta-strip">
+          <div class="cm-m-item"><span class="cmi-k">TYPOLOGY</span><span class="cmi-v">Modular Prefabricated Living Chassis</span></div>
+          <div class="cm-m-item"><span class="cmi-k">RELEVANCE</span><span class="cmi-v">Grid Coordination, Partition Flexibility, Minimalist Footprint</span></div>
+          <div class="cm-m-item"><span class="cmi-k">ANALYSIS STATUS</span><span class="cmi-v">Curated Precedent for Thesis Grid Geometry</span></div>
+        </div>
+        <div class="cm-details-grid">
+          <div class="cmd-cell">
+            <h4>01 // BACKGROUND</h4>
+            <p>[ Please provide background information on MIMA House. Details regarding its origin and development will be integrated here upon supply. ]</p>
+          </div>
+          <div class="cmd-cell">
+            <h4>02 // DESIGN CONCEPT</h4>
+            <p>[ Please supply design concept data. Focus on Japanese tatami proportions, modular simplicity, and clean aesthetic lines. ]</p>
+          </div>
+          <div class="cmd-cell">
+            <h4>03 // SPATIAL ORGANISATION</h4>
+            <p>[ Please provide spatial organization details regarding perimeter walls, internal circulation, and day/night zones. ]</p>
+          </div>
+          <div class="cmd-cell">
+            <h4>04 // GRID / SYSTEM</h4>
+            <p>[ Please provide data regarding the structural grid module (1.5m / 3.0m intervals) and its joinery parameters. ]</p>
+          </div>
+          <div class="cmd-cell">
+            <h4>05 // ADAPTABILITY</h4>
+            <p>[ Please specify how removable interior partition screens allow re-zoning rooms based on daily user requirements. ]</p>
+          </div>
+          <div class="cmd-cell">
+            <h4>06 // KEY OBSERVATIONS</h4>
+            <p>[ Document key student observations regarding spatial efficiency, threshold clarity, and structural economy. ]</p>
+          </div>
+          <div class="cmd-cell cmd-cell--wide">
+            <h4>07 // RELEVANCE TO THESIS</h4>
+            <p>[ Document how MIMA House’s partition rhythm directly informed the interior spatial zoning of "One Place, Many Different Lives". ]</p>
+          </div>
+        </div>
+        <div class="cm-tri-ph">
+          <div class="cm-sub-ph"><span>[ DRAWING PLACEHOLDER: FLOOR PLAN ]</span></div>
+          <div class="cm-sub-ph"><span>[ DRAWING PLACEHOLDER: STRUCTURAL GRID ]</span></div>
+          <div class="cm-sub-ph"><span>[ DRAWING PLACEHOLDER: ELEVATION AXIS ]</span></div>
+        </div>
+      </article>
+
+      <!-- CASE STUDY 02: NEXT21 -->
+      <article class="case-monograph" id="case-next21">
+        <div class="cm-head">
+          <div class="cm-badge">PRECEDENT // 02</div>
+          <h3 class="cm-name">NEXT21 LINKED HOUSE <span class="cm-type">[EXPERIMENTAL COLLECTIVE HOUSING]</span></h3>
+        </div>
+        <div class="cm-main-frame">
+          <div class="cm-img-wrap"><img src="../assets/images/project-next21.jpg" alt="NEXT21 Linked House Monograph" class="v2-cs-real-img" /></div>
+        </div>
+        <div class="cm-meta-strip">
+          <div class="cm-m-item"><span class="cmi-k">LOCATION</span><span class="cmi-v">Osaka, Japan</span></div>
+          <div class="cm-m-item"><span class="cmi-k">TYPOLOGY</span><span class="cmi-v">Experimental High-Density Infill Housing</span></div>
+          <div class="cm-m-item"><span class="cmi-k">RELEVANCE</span><span class="cmi-v">Skeleton vs. Infill (Open Building System), Pluralistic Lifestyles</span></div>
+        </div>
+        <div class="cm-details-grid">
+          <div class="cmd-cell">
+            <h4>01 // BACKGROUND</h4>
+            <p>[ Please provide context on Osaka Gas NEXT21 experimental habitat exploring pluralistic urban community routines in Japan. ]</p>
+          </div>
+          <div class="cmd-cell">
+            <h4>02 // DESIGN CONCEPT</h4>
+            <p>[ Please provide design concept specifics regarding environmental sustainability, multi-generational dwelling, and biodiversity. ]</p>
+          </div>
+          <div class="cmd-cell">
+            <h4>03 // SPATIAL ORGANISATION</h4>
+            <p>[ Please document how distinct apartments display entirely personalized floorplans within the collective concrete framework. ]</p>
+          </div>
+          <div class="cmd-cell">
+            <h4>04 // GRID / SYSTEM</h4>
+            <p>[ Please document structural grid bays, utility ducts, and access corridors that empower individual infill variation. ]</p>
+          </div>
+          <div class="cmd-cell">
+            <h4>05 // ADAPTABILITY</h4>
+            <p>[ Document how individual residential units undergo complete spatial remodeling over time without impacting neighbors. ]</p>
+          </div>
+          <div class="cmd-cell">
+            <h4>06 // KEY OBSERVATIONS</h4>
+            <p>[ Document key lessons about longevity, material modularity, and human autonomy in residential architecture. ]</p>
+          </div>
+          <div class="cmd-cell cmd-cell--wide">
+            <h4>07 // RELEVANCE TO THESIS</h4>
+            <p>[ Document how NEXT21’s clear division between fixed structural core and flexible infill guided the thesis spatial methodology. ]</p>
+          </div>
+        </div>
+        <div class="cm-tri-ph">
+          <div class="cm-sub-ph"><span>[ DRAWING PLACEHOLDER: SKELETON DIAGRAM ]</span></div>
+          <div class="cm-sub-ph"><span>[ DRAWING PLACEHOLDER: INFILL VARIATIONS ]</span></div>
+          <div class="cm-sub-ph"><span>[ DRAWING PLACEHOLDER: AXONOMETRIC SYSTEM ]</span></div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         SECTION 05: ABOUT & SKILLS
+         ════════════════════════════════════════════ -->
+    <section class="sec-about" id="about" aria-label="About Vansh Gajjar">
+      <div class="sec-intro-bar">
+        <div class="sec-num-large" aria-hidden="true">05</div>
+        <div class="sec-meta-col">
+          <span class="sec-subhead">// PROFILE &amp; COMPETENCIES</span>
+          <h2 class="sec-title">ABOUT &amp;<br/><span class="text-accent">EXPERTISE.</span></h2>
+        </div>
+        <div class="sec-note-col">
+          <p>Interior design student at Indus University, Ahmedabad. Fostering research-grounded spatial design methodologies.</p>
+        </div>
+      </div>
+
+      <div class="about-monument-grid">
+        <div class="amg-left">
+          <div class="portrait-ph">
+            <div class="portrait-border"></div>
+            <span>[ PORTRAIT PHOTOGRAPH // VANSH GAJJAR // PLEASE INSERT PHOTO ]</span>
+          </div>
+          <div class="amg-meta-block">
+            <div class="amg-row"><span>FULL NAME</span><strong>VANSH GAJJAR</strong></div>
+            <div class="amg-row"><span>STATUS</span><strong>INTERIOR DESIGN STUDENT</strong></div>
+            <div class="amg-row"><span>INSTITUTION</span><strong>INDUS UNIVERSITY</strong></div>
+            <div class="amg-row"><span>BASE</span><strong>AHMEDABAD, GUJARAT, INDIA</strong></div>
+          </div>
+        </div>
+        <div class="amg-right">
+          <div class="amg-narrative">
+            <h3 class="about-manifesto">
+              &ldquo;Spatial design achieves authenticity when form recedes, allowing human life, quiet light, and honest materials to conduct the experience.&rdquo;
+            </h3>
+            <p class="about-text">
+              I am an interior design student at Indus University, Ahmedabad, pursuing a research-led approach to interior architecture, residential environments, and spatial frameworks. My practice prioritizes how human rituals physically interact with volumes, circulation thresholds, and tactile materiality.
+            </p>
+            <p class="about-text">
+              Rather than adopting fleeting ornamental trends, my academic trajectory explores how structural grids and modular discipline can construct spaces that endure. My thesis on adaptable domestic spaces synthesizes rigorous analysis of global precedents with human-centered empathy.
+            </p>
+            <p class="about-text">
+              I seek opportunities to contribute to design studios, research teams, and graduate academic spaces that value integrity, spatial clarity, and intellectual rigor.
+            </p>
+          </div>
+
+          <!-- SKILLS TABLE -->
+          <div class="skills-block" id="skills">
+            <div class="sb-header">
+              <span class="sb-tag">[ TECHNICAL DOSSIER ]</span>
+              <h4>COMPETENCY &amp; CAPABILITIES</h4>
+            </div>
+            <div class="sb-grid">
+              <div class="sb-col">
+                <span class="sb-col-title">01 // SPATIAL &amp; CONCEPTUAL DESIGN</span>
+                <ul class="sb-list">
+                  <li><span>INTERIOR ARCHITECTURE</span><span class="sb-dot">•</span></li>
+                  <li><span>SPATIAL PLANNING &amp; ZONING</span><span class="sb-dot">•</span></li>
+                  <li><span>CONCEPT DEVELOPMENT</span><span class="sb-dot">•</span></li>
+                  <li><span>RESEARCH &amp; METHODOLOGY</span><span class="sb-dot">•</span></li>
+                  <li><span>ANTHROPOMETRICS &amp; ERGONOMICS</span><span class="sb-dot">•</span></li>
+                  <li><span>MATERIAL SPECIFICATION &amp; TECTONICS</span><span class="sb-dot">•</span></li>
+                </ul>
+              </div>
+              <div class="sb-col">
+                <span class="sb-col-title">02 // COMPUTATIONAL SOFTWARE</span>
+                <ul class="sb-list">
+                  <li>
+                    <span class="sb-sw-name">AUTOCAD</span>
+                    <span class="sb-sw-desc">Technical Drafting, Measured Plans, Joinery Details</span>
+                  </li>
+                  <li>
+                    <span class="sb-sw-name">SKETCHUP</span>
+                    <span class="sb-sw-desc">3D Spatial Modeling, Massing, Volumetric Analysis</span>
+                  </li>
+                  <li>
+                    <span class="sb-sw-name">ADOBE ILLUSTRATOR</span>
+                    <span class="sb-sw-desc">Architectural Diagrams, Vector Schematics, Layout</span>
+                  </li>
+                  <li>
+                    <span class="sb-sw-name">CANVA</span>
+                    <span class="sb-sw-desc">Presentation Decks, Visual Research Documentation</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         SECTION 06: DESIGN PROCESS / METHODOLOGY
+         ════════════════════════════════════════════ -->
+    <section class="sec-process" id="process" aria-label="Design Process">
+      <div class="sec-intro-bar">
+        <div class="sec-num-large" aria-hidden="true">06</div>
+        <div class="sec-meta-col">
+          <span class="sec-subhead">// STUDIO METHODOLOGY</span>
+          <h2 class="sec-title">STUDIO<br/><span class="text-accent">PROCESS.</span></h2>
+        </div>
+        <div class="sec-note-col">
+          <p>Every proposition is filtered through a structured six-phase research and development pipeline. Structured like an international design atelier.</p>
+        </div>
+      </div>
+
+      <div class="process-sequence">
+        <div class="p-card">
+          <div class="p-step">PHASE 01</div>
+          <h3 class="p-title">RESEARCH</h3>
+          <p class="p-desc">Contextual immersion, site documentation, literature mining, user interview protocols, and historical precedent analysis.</p>
+          <div class="p-arrow">→</div>
+        </div>
+        <div class="p-card">
+          <div class="p-step">PHASE 02</div>
+          <h3 class="p-title">ANALYSIS</h3>
+          <p class="p-desc">Distilling gathered data into circulation diagrams, sun-path studies, anthropometric matrices, and spatial deficiency catalogs.</p>
+          <div class="p-arrow">→</div>
+        </div>
+        <div class="p-card">
+          <div class="p-step">PHASE 03</div>
+          <h3 class="p-title">CONCEPT</h3>
+          <p class="p-desc">Articulating the governing architectural narrative, primary volumetric metaphors, and defining the governing spatial grid.</p>
+          <div class="p-arrow">→</div>
+        </div>
+        <div class="p-card">
+          <div class="p-step">PHASE 04</div>
+          <h3 class="p-title">DEVELOPMENT</h3>
+          <p class="p-desc">Translating conceptual ideas into CAD drawings, floor layouts, internal elevations, and volumetric 3D mockups.</p>
+          <div class="p-arrow">→</div>
+        </div>
+        <div class="p-card">
+          <div class="p-step">PHASE 05</div>
+          <h3 class="p-title">EXPERIMENTATION</h3>
+          <p class="p-desc">Testing material palettes, tactile finishes, joinery prototypes, lighting models, and flexible partition scenarios.</p>
+          <div class="p-arrow">→</div>
+        </div>
+        <div class="p-card">
+          <div class="p-step">PHASE 06</div>
+          <h3 class="p-title">FINAL DESIGN</h3>
+          <p class="p-desc">Synthesizing fully coordinated architectural drawings, detailed schedules, spatial renders, and presentation portfolios.</p>
+          <div class="p-arrow">✓</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         SECTION 07: CONTACT // TRANSMISSION
+         ════════════════════════════════════════════ -->
+    <section class="sec-contact" id="contact" aria-label="Contact Section">
+      <div class="contact-terminal">
+        <div class="ct-header">
+          <span class="ct-tag">COMMUNICATION // OPEN DISCUSSIONS</span>
+          <span class="ct-ind font-mono">[ STATUS: READY ]</span>
+        </div>
+        <div class="ct-headline-block">
+          <h2 class="ct-title">
+            LET&rsquo;S TALK ABOUT<br/>
+            SPACES, IDEAS<br/>
+            <span class="text-indigo">&amp; DESIGN.</span>
+          </h2>
+          <p class="ct-subtitle">
+            Whether for architectural inquiries, studio apprenticeships, collaborative design projects, or academic discourse.
+          </p>
+        </div>
+
+        <div class="ct-main-split">
+          <div class="ct-info-col">
+            <div class="ct-brand-meta">
+              <h3>VANSH GAJJAR</h3>
+              <p class="ct-role">INTERIOR DESIGNER / DESIGN STUDENT</p>
+              <p class="ct-uni">Indus University, Ahmedabad, Gujarat, India</p>
+            </div>
+            <div class="ct-memo">
+              <p>All contact endpoints below are live placeholders ready to receive your specific handles and direct phone transmission.</p>
+            </div>
+          </div>
+
+          <div class="ct-links-col">
+            <a href="mailto:your.email@example.com" class="ct-link-row">
+              <span class="clr-key">EMAIL</span>
+              <span class="clr-val">[ your.email@example.com ]</span>
+              <span class="clr-arrow">↗</span>
+            </a>
+            <a href="https://instagram.com/" target="_blank" rel="noopener" class="ct-link-row">
+              <span class="clr-key">INSTAGRAM</span>
+              <span class="clr-val">[ @your_handle ]</span>
+              <span class="clr-arrow">↗</span>
+            </a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener" class="ct-link-row">
+              <span class="clr-key">LINKEDIN</span>
+              <span class="clr-val">[ linkedin.com/in/your-name ]</span>
+              <span class="clr-arrow">↗</span>
+            </a>
+            <a href="tel:+910000000000" class="ct-link-row">
+              <span class="clr-key">PHONE</span>
+              <span class="clr-val">[ +91 00000 00000 ]</span>
+              <span class="clr-arrow">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- BRUTAL FOOTER -->
+  <footer class="brutal-footer">
+    <div class="bf-left">
+      <span>VANSH GAJJAR // ARCHITECTURAL PORTFOLIO</span>
+      <span class="bf-dim">ACADEMIC &amp; SPATIAL PRACTICE</span>
+    </div>
+    <div class="bf-mid">
+      <span>© 2025 ALL RIGHTS RESERVED // INDUS UNIVERSITY</span>
+    </div>
+    <div class="bf-right">
+      <span>AHMEDABAD, INDIA [23.0225° N, 72.5714° E]</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
